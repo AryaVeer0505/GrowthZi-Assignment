@@ -61,3 +61,103 @@
   height: auto;
   object-fit: contain;
 }
+
+
+@media (max-width: 576px) {
+  .header {
+    flex-direction: column;
+    margin: 20px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+  }
+
+  .header-left {
+    gap: 20px;
+    font-size: 18px;
+  }
+
+  .dev-name {
+    font-size: 32px;
+  }
+
+  .dev-role {
+    font-size: 16px;
+    padding: 6px 10px;
+    margin: auto;
+  }
+
+  .header-left-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-left-subInfo .number {
+    font-size: 50px;
+  }
+
+  .header-left-subInfo .text {
+    font-size: 16px;
+  }
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    margin: 30px 40px;
+    gap: 40px;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-left {
+    font-size: 22px;
+  }
+
+  .dev-name {
+    font-size: 40px;
+  }
+
+  .header-left-info {
+    justify-content: center;
+  }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    margin: 40px 60px;
+  }
+
+  .header-left {
+    font-size: 22px;
+  }
+
+  .header-left-subInfo .number {
+    font-size: 65px;
+  }
+
+  .header-left-subInfo .text {
+    font-size: 20px;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .header {
+    margin: 40px 120px;
+  }
+}
+

@@ -22,3 +22,49 @@
 .image {
   width: 110px;
 }
+
+
+@media (max-width: 576px) {
+  .skills {
+    padding: 30px 20px;
+    margin: 60px 0;
+  }
+
+  .skills-heading {
+    font-size: 26px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .imageData {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .image {
+    width: 70px;
+  }
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .skills {
+    padding: 40px 40px;
+  }
+
+  .skills-heading {
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .imageData {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .image {
+    width: 85px;
+  }
+}

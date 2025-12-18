@@ -45,6 +45,7 @@ const Navbar = () => {
           <p>Contact me</p>
         </a>
       </div>
+      <i class="fa-solid fa-list menu"></i>
     </div>
   );
 };

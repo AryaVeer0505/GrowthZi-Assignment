@@ -42,3 +42,69 @@
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 576px) {
+  .education {
+    margin: 40px 20px;
+  }
+
+  .education h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .container .year {
+    font-size: 18px;
+    order: -1;
+    color: rgb(228, 205, 0);
+  }
+
+  .sub-div {
+    max-width: 100%;
+  }
+
+  .sub-div .degree {
+    font-size: 18px;
+  }
+
+  .sub-div .university {
+    font-size: 16px;
+  }
+
+  .sub-div .list {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .education {
+    margin: 40px;
+  }
+
+  .education h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container .year {
+    font-size: 20px;
+  }
+
+  .sub-div {
+    max-width: 100%;
+  }
+}

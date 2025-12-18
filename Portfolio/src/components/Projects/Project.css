@@ -36,3 +36,47 @@
     font-weight: 600;
     margin: 10px 0;
 }
+
+
+@media (max-width: 576px) {
+  .project {
+    margin-top: 60px;
+  }
+
+  .project h1 {
+    font-size: 26px;
+    margin: 0 20px 40px 20px;
+    text-align: center;
+  }
+
+  .project-list {
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .project-card {
+    min-width: 260px;
+  }
+
+  .project-card p {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .project h1 {
+    font-size: 30px;
+    margin: 0 40px 60px 40px;
+  }
+
+  .project-list {
+    gap: 30px;
+    padding: 0 40px;
+  }
+
+  .project-card {
+    min-width: 320px;
+  }
+}

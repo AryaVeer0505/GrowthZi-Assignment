@@ -1,0 +1,20 @@
+.footer{
+     background: linear-gradient(
+    110deg,
+    rgb(0, 0, 0),
+    rgb(69, 69, 69)
+  );
+  text-align: end;
+  padding: 30px 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+}

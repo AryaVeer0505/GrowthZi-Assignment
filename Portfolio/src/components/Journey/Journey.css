@@ -49,10 +49,74 @@
   border-radius: 5px;
   font-size: 15px;
   border-image: linear-gradient(to bottom, #fcce15, #ffffff) 1;
+  cursor: pointer;
 }
 
 .center-div {
   width: 2px;
   height: 100vh;
   background-color: rgb(228, 205, 0);
+}
+
+
+@media (max-width: 576px) {
+  .journey {
+    padding: 30px 20px;
+    margin: 60px 0;
+  }
+
+  .journey h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .side-div {
+    gap: 40px;
+  }
+
+  .sub-divs {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .sub-divs h2 {
+    font-size: 20px;
+  }
+
+  .sub-divs p {
+    font-size: 15px;
+  }
+
+  .center-div {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .journey {
+    padding: 40px 40px;
+  }
+
+  .journey h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .side-div {
+    gap: 60px;
+  }
+
+  .center-div {
+    display: none;
+  }
 }
