@@ -8,8 +8,8 @@ const Header = () => {
         <p className="header-hello">Hello, i am</p>
         <h1 className="dev-name">
           {" "}
-          &lt;   JOHN <br />
-          DOE   /&gt;
+          &lt;   Aryaveer <br />
+          Kanwar   /&gt;
         </h1>
         <h2 className="dev-role">BACKEND DEVELOPER</h2>
         <div className="header-left-info">

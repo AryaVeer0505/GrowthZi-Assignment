@@ -21,3 +21,7 @@ body {
    background-blend-mode: overlay;
   color: #ffffff;
 }
+ ::-webkit-scrollbar{
+  display: none;
+ }
+

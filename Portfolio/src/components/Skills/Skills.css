@@ -1,18 +1,16 @@
 .skills {
-  margin-top: 120px;
+  margin: 120px 0px;
   display: flex;
   flex-direction: column;
-  max-width: 90vw;
   width: 100%;
-  min-height: 100vh;
-  background-color: linear-gradient(110deg, rgb(69, 69, 69) rgb(0, 0, 0));
+  background-color: black;
   color: #ffffff;
+  padding: 50px 120px;
 }
 
 .skills-heading {
   font-size: 35px;
   color: rgb(228, 205, 0);
-  margin-bottom: 20px;
   margin-bottom: 100px;
 }
 
